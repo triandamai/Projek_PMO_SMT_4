@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Halaman_Splash_Screen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_splash"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_logo"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tv_upps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Ebook"
+            android:textColor="@color/grey"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv_splash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/hehe"
+            android:text="Tidak ada koneksi Internet \n Ketuk untuk mengulang"/>
+        <ProgressBar
+            android:id="@+id/pb_splash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:secondaryProgressTint="@color/hehe"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/putih"
+    tools:context=".auth.login">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="60dp"
+               android:gravity="center_horizontal">
+
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:src="@drawable/ic_logo" />
+           </RelativeLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="center"
+               android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="300dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Nama"
+                       android:textColor="@color/grey" />
+
+                   <EditText
+                       android:id="@+id/txt_register_nama"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:backgroundTint="@color/hijau_tosca"
+                       android:textColor="@color/grey"
+                       android:textColorHint="@color/hijau_tosca" />
+               </LinearLayout>
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="10dp" />
+
+               <LinearLayout
+                   android:layout_width="300dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Username"
+                       android:textColor="@color/grey" />
+
+                   <EditText
+                       android:id="@+id/txt_register_username"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:backgroundTint="@color/hijau_tosca"
+                       android:textColor="@color/grey"
+                       android:textColorHint="@color/hijau_tosca"
+                       android:typeface="sans" />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="300dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Password"
+                       android:textColor="@color/grey" />
+
+                   <EditText
+                       android:id="@+id/txt_register_password"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:backgroundTint="@color/hijau_tosca"
+                       android:inputType="textPassword"
+                       android:textColor="@color/grey"
+                       android:textColorHint="@color/hijau_tosca"
+                       android:typeface="sans" />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="300dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="E-mail"
+                       android:textColor="@color/grey" />
+
+                   <EditText
+                       android:id="@+id/txt_register_email"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:backgroundTint="@color/hijau_tosca"
+                       android:textColor="@color/grey"
+                       android:textColorHint="@color/hijau_tosca"
+                       android:typeface="sans" />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="300dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="30dp"
+                   android:gravity="center_horizontal"
+                   android:orientation="horizontal">
+
+                   <Button
+                       android:id="@+id/btn_login"
+                       android:layout_width="130dp"
+                       android:layout_height="50dp"
+                       android:background="@drawable/bg_stroke"
+                       android:text="Log in"
+                       android:textColor="@color/grey"
+                       android:textStyle="normal" />
+
+                   <View
+                       android:layout_width="20dp"
+                       android:layout_height="40dp" />
+
+                   <Button
+                       android:id="@+id/btn_register"
+                       android:layout_width="130dp"
+                       android:layout_height="50dp"
+                       android:background="@drawable/bg_green_tosca"
+                       android:text="Register"
+                       android:textColor="@color/putih"
+                       android:textStyle="normal" />
+               </LinearLayout>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginTop="20dp"
+                   android:text="Lupa Password ?"
+                   android:textColor="@color/grey"
+                   android:textSize="16sp" />
+           </LinearLayout>
+       </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21D0C3</color>
+    <color name="colorPrimaryDark">#21D0C3</color>
+
+    <color name="background">#ededed</color>
+
+    <color name="hijau_tosca">#66cfa5</color>
+
+    <color name="putih">#ffffff</color>
+    <color name="placeholder">#e4e4e4</color>
+    <color name="grey">#a4a4a4</color>
+    <color name="danger">#ff1414</color>
+    <color name="hehe">#21D0C3</color>
+
+    <color name="GhostWhite">#FBFBFD </color>
+    <color name="Quartz">#DDDDEE </color>
+    <color name="Dandelion">#FFD361 </color>
+    <color name="YellowOrange">#FFAE42 </color>
+    <color name="blue">#2196f3</color>
+    <color name="RoyalBlue">#5676DA</color>
+    <color name="CornBlue">#62A3EE </color>
+    <color name="Picton">#589BD1  </color>
+    <color name="AliceBlue">#FDFEFF </color>
+    <color name="Shamrock">#1AD092 </color>
+    <color name="cornet">#5E6384 </color>
+    <color name="Deepskyblue">#24C9FA </color>
+    <color name="transparan">#00f1f1f1</color>
+
+
+    <color name="placeholder_grey">#AAADC4</color>
+</resources>

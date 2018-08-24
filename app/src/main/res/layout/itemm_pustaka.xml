@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:background="@color/transparan"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        >
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_gradientnews">
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ly_item_pustaka"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fl_item_pustaka_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="1dp"
+                android:orientation="horizontal"
+                android:background="@color/putih">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:background="@color/putih"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_pustaka_cover"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_epus"
+
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="vertical">
+
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:id="@+id/tv_pustaka_nama"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="nama pustaka"
+                            android:textColor="#606674"
+                            android:textSize="14dp"
+                            />
+
+                        <!--<customfonts.MyTextView_Roboto_Medium
+                            android:id="@+id/tv_jumlah_posting"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginTop="9dp"
+                            android:text="Jumlah Posting"
+                            android:textColor="#606674"
+                            android:textSize="14dp"
+                            android:layout_gravity="center"/>-->
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+</LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_item_news_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_ibuku_cover"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/buildingone"
+                    android:layout_height="match_parent"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_gradientnews"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/ly_news_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:padding="10dp"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/iv_ibuku_foto"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/userimg"/>
+                        </RelativeLayout>
+                        <LinearLayout
+                            android:layout_width="299dp"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="10dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tv_ibuku_nama"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/putih"
+                                android:text="Trian"/>
+                            <TextView
+                                android:id="@+id/tv_ibuku_notif"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/putih"
+                                android:text="menambahkan sebuah buku"
+                                android:textSize="10sp"/>
+                        </LinearLayout>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/ic_favorite_border_black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/ly_news_book"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:id="@+id/tv_ibuku_Judul"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Judul bukunya"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="#ffffff"
+                            android:textSize="13dp" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_width="300dp"
+                        android:layout_gravity="center"
+                        android:layout_height="1dp"/>
+                    <TextView
+                        android:id="@+id/tv_lihat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Lihat"
+                        android:textColor="@color/YellowOrange"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
